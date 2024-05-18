@@ -4,6 +4,27 @@
 #include <ctime>
 #include "config.h"
 
+void mode() {
+    while (true) {
+        std::string mode;
+        std::cout << "Bot mode or PvP? (bot/pvp) > "; std::cin >> mode;
+        if (mode == "bot") {
+            bot = true;
+            std::cout << "Player vs. Bot\n" << std::endl;
+            break;
+        }
+        else if (mode == "pvp") {
+            bot = false;
+            std::cout << "PvP\n" << std::endl;
+            break;
+        }
+        else {
+            std::cout << "Invalid choice!" << std::endl;
+            continue;
+        }
+    }
+}
+
 void number_input(char player, char opponent) {
     while (true) {
         std::cout << player << "'s turn >> ";
