@@ -5,19 +5,18 @@
 int main()
 {
     std::cout << "Welcome to Tic Tac Toe" << std::endl;
-    if (bot)
-        std::cout << "Player vs. Bot\n" << std::endl;
-    else
-        std::cout << "PvP\n" << std::endl;
-
+    mode();
     print_board();
-    while (true) {
+
+    while (true)
+    {
         // Player one's turn
         std::cout << "----------------------------------------------------" << std::endl;
         number_input(playerone, playertwo);
         print_board();
         if (check_win(playerone))
             if (check_replay()) {
+                mode();
                 print_board();
                 continue;
             }
@@ -33,6 +32,7 @@ int main()
         print_board();
         if (check_win(playertwo))
             if (check_replay()) {
+                mode();
                 print_board();
                 continue;
             }
