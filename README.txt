@@ -2,7 +2,7 @@ Console One or Two-Player Tic-Tac-Toe Game
 
 Initiates a game of Tic-Tac-Toe. Can either be played between one physical user
 and another physical user OR between one physical user and an AI bot. 
-The app gives the user the option to replay the game after a player wins or the players draw.	
+The app gives the user the option to replay the game and change the mode after a player wins or the players draw.	
 
 FEATURES
 - Interactive turn-based input with conditional checks
