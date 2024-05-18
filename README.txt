@@ -14,3 +14,7 @@ FEATURES
 BUGS
 - An exception is thrown when entering values greater than 40952 or below a specific negative value for the number_input prompt
 - An infinite loop is triggered when entering a non-integer value
+
+HOW TO INSTALL AND RUN
+- Download "tic-tac-toe.exe"
+- Run "tic-tac-toe.exe"
