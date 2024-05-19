@@ -16,5 +16,5 @@ BUGS
 - An infinite loop is triggered when entering a non-integer value
 
 HOW TO INSTALL AND RUN
-- Download "tic-tac-toe.exe"
-- Run "tic-tac-toe.exe"
+- Download "Tic-Tac-Toe.exe"
+- Run "Tic-Tac-Toe.exe"
