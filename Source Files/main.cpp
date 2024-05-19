@@ -39,4 +39,5 @@ int main()
             else
                 break;
     }
+    std::cout << "Goodbye!" << std::endl;
 }
